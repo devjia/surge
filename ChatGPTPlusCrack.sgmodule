@@ -1,0 +1,8 @@
+#!name=ChatGPT Unlock Plus
+#!desc=ChatGPT 解锁 Plus 订阅
+
+[Script]
+ChatGPT Unlock Plus = type=http-response,pattern=^https?:\/\/ios\.chat\.openai\.com\/backend-api\/(accounts\/check\/|models),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/devjia/surge/master/ChatGPTPlusCrack.js
+
+[MITM]
+hostname= %APPEND% ios.chat.openai.com
