@@ -1,0 +1,9 @@
+#!name=relingo
+#!desc=fake relingo premium
+#!system=mac
+
+[MITM]
+hostname = %APPEND% api.relingo.net
+
+[Script]
+Relingo Premium=type=http-response,pattern=^https?:\/\/api\.relingo\.net\/api\/getUserInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/devjia/surge/main/relingo.js,requires-body=true
