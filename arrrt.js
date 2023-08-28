@@ -1,9 +1,11 @@
 let body = JSON.parse($response.body);
 
-if($request.url.includes("autoLogin")) {
+if ($request.url.includes("autoLogin")) {
 	body.data.isLogin = true;
 	body.data.isVip = true;
-} else {
+}
+
+if($request.url.includes("checkVip")) {
 	body.data = true;
 	body.message = "已修改";
 }
