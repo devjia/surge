@@ -5,4 +5,4 @@
 hostname = %APPEND% arrrt.wedea.cn
 
 [Script]
-Arrrt Pro = type=http-response,pattern=^https?:\/\/arrrt\.wedea\.cn\/api\/\/api\/notcheck\/autoLogin?*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/devjia/surge/main/arrrt.js,requires-body=true
+Arrrt Pro = type=http-response,pattern=^https:\/\/arrrt\.wedea\.cn\/api\/\/api\/notcheck\/autoLogin\?deviceToken=([a-zA-Z0-9]+)&deviceType=(IOS|Android)&uuid=([a-zA-Z0-9\-]+),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/devjia/surge/main/arrrt.js,requires-body=true
