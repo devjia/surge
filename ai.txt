@@ -1,5 +1,7 @@
 DOMAIN-SUFFIX,bing.net
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,midjourney.com
