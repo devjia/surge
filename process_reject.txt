@@ -1,2 +1,4 @@
 PROCESS-NAME,WeType
+PROCESS-NAME,WeTypeFeedback
+PROCESS-NAME,WeTypeSettings
 PROCESS-NAME,SogouServices
