@@ -1,5 +1,6 @@
-#!name=revenuecat
-#!desc=通用订阅
+#!name=FakeVIP
+#!desc=RevenueCat FakeVIP
+#!system=mac
 
 [MITM]
 hostname = %APPEND% api.revenuecat.com
